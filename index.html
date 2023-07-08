@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Jogo de Cores</h1>
+    </header>
+
+    <section id="playerSection">
+        <div id="player1" class="player">
+            <h2>Jogador 1</h2>
+            <label for="player1Name">Nome:</label>
+            <input type="text" id="player1Name" placeholder="Digite o nome do Jogador 1">
+        </div>
+
+        <div id="player2" class="player">
+            <h2>Jogador 2</h2>
+            <label for="player2Name">Nome:</label>
+            <input type="text" id="player2Name" placeholder="Digite o nome do Jogador 2">
+        </div>
+
+        <button id="startGameButton">Iniciar Jogo</button>
+    </section>
+
+    <section id="gameBoard" style="display: none;">
+        <div id="player1Info" class="playerInfo">
+            <h2>Jogador 1: <span id="player1NameDisplay"></span></h2>
+            <p>Bolinhas: <span id="player1Count">10</span></p>
+        </div>
+
+        <div id="player2Info" class="playerInfo">
+            <h2>Jogador 2: <span id="player2NameDisplay"></span></h2>
+            <p>Bolinhas: <span id="player2Count">10</span></p>
+        </div>
+
+        <div id="messageArea"></div>
+
+        <div id="gameContainer">
+            <div class="colorCircle" id="colorCircle1"></div>
+            <div class="colorCircle" id="colorCircle2"></div>
+            <div class="colorCircle" id="colorCircle3"></div>
+            <div class="colorCircle" id="colorCircle4"></div>
+            <div class="colorCircle" id="colorCircle5"></div>
+            <div class="colorCircle" id="colorCircle6"></div>
+        </div>
+
+        <button id="sortearButton">Sortear Cor</button>
+        <button id="resetButton">Resetar Jogo</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

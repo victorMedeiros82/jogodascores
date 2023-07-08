@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#playerSection {
+    margin-top: 50px;
+}
+
+.player {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#startGameButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#gameBoard {
+    display: none;
+}
+
+.playerInfo {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.colorCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin: 10px;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#sortearButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Adicione estilos para cada círculo de cor específica */
+#colorCircle1 {
+    border-color: #0000FF;
+}
+
+#colorCircle2 {
+    border-color: #FF0000;
+}
+
+#colorCircle3 {
+    border-color: #00FF00;
+}
+
+#colorCircle4 {
+    border-color: #FFFF00;
+}
+
+#colorCircle5 {
+    border-color: #800080;
+}
+
+#colorCircle6 {
+    border-color: #FFA500;
+}
+#resetButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+}

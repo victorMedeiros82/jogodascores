@@ -113,6 +113,8 @@ input {
 }
 @media only screen and (min-width: 768px) {
    .container {
+       display:flex;
+       flex-direction:column;
       width: 70%;
    }
 }

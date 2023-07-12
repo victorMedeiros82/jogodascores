@@ -3,6 +3,10 @@ body {
     text-align: center;
     background-color: #f0f0f0;
 }
+.container {
+   width: 90%;
+   margin: 0 auto;
+}
 
 header {
     color: #fff;
@@ -106,4 +110,18 @@ input {
     font-size: 16px;
     background-color: red;
     color: white;
+}
+@media only screen and (min-width: 768px) {
+   .container {
+      width: 70%;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .container {
+      width: 70%;
+   }
+}
+img {
+   max-width: 100%;
+   height: auto;
 }

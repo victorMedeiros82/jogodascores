@@ -18,6 +18,7 @@ h1 {
 }
 
 #playerSection {
+    display:flex;
     margin-top: 50px;
 }
 
@@ -118,6 +119,9 @@ input {
        background-color:red;
       width: 70%;
    }
+#playerSection{
+    display:flex;
+    flex-direction:column;
 }
 img {
    max-width: 100%;
